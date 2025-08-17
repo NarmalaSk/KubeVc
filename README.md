@@ -1,4 +1,4 @@
-# KubeVC
+# KubeVCh
 
 KubeVC (**Kubernetes Version Control**) is a CLI tool that helps you **snapshot, version-control, visualize, and rollback** Kubernetes cluster states.  
 It integrates with **Git** and **S3** to provide a history of your cluster’s evolution, making debugging, auditing, and recovery easier.
