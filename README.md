@@ -2,7 +2,7 @@
 
 KubeVC (**Kubernetes Version Control**) is a CLI tool that helps you **snapshot, version-control, visualize, and rollback** Kubernetes cluster states.  
 It integrates with **Git** and **S3** to provide a history of your cluster’s evolution, making debugging, auditing, and recovery easier.
-<img width="1536" height="1024" alt="ChatGPT Image Aug 16, 2025, 06_07_03 PM" src="https://github.com/user-attachments/assets/631d77f1-587c-4691-bb5a-10278acc851c" />
+<img width="1536" height="1024" alt="" src="https://github.com/user-attachments/assets/631d77f1-587c-4691-bb5a-10278acc851c" />
 
 ---
 
