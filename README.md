@@ -27,3 +27,40 @@ It integrates with **Git** and **S3** to provide a history of your cluster’s e
 ```bash
 git clone https://github.com/NarmalaSk/KubeVc.git
 cd kubevc
+
+
+### Configure S3 for Remote Backend and KubeConfig for K8s Cluster access
+```bash
+cd KubeVc
+```yaml
+kube:
+  config_path: 
+s3:
+  access_key_id: 
+  bucket: 
+  region: 
+  secret_access_key:
+
+### Run KubeVc Configure for applying creds
+```bash
+python3 KubeVc.py configure
+
+
+### start the KubeVc as service
+```bash
+python3 KubeVc.py start
+
+#### Expose endpoint in K8s cluster with Loadbalancer or Nodeport
+```bash
+copy instance ip/webhook
+
+### setup webhook for your git repo
+payload url :paste instance ip/webhook
+
+content type: application/json
+
+send push_event
+
+## Congrats 🎉🎉 you have setupped KubeVc go to https://service-ip:5000/
+
+ 
