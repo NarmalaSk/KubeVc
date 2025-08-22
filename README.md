@@ -30,9 +30,9 @@ cd kubevc
 ```
 
 ### Configure S3 for Remote Backend and KubeConfig for K8s Cluster access
-```bash
-cd KubeVc
 ```yaml
+cd KubeVc
+vi KubeVc.yaml or nano KubeVc.yaml
 kube:
   config_path: 
 s3:
