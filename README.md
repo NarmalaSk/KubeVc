@@ -64,6 +64,6 @@ content type: application/json
 
 send push_event
 ```
-##### Congrats 🎉🎉 you have setupped KubeVc go to https://service-ip:5000/
+##### "🎉🎉 Congratulations! KubeVC is successfully set up. Access the dashboard at: https://<service-ip>:5000/"
 
  
