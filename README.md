@@ -52,7 +52,7 @@ python3 KubeVc.py configure
 ```bash
 python3 KubeVc.py start
 ```
-#### Expose endpoint in K8s cluster with Loadbalancer or Nodeport
+#### Expose it as Service && copy Ip
 ```bash
 copy instance ip/webhook
 ```
