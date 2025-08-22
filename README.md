@@ -12,7 +12,6 @@ It integrates with **Git** and **S3** to provide a history of your cluster’s e
 - **Version Control** → Track changes in Git or S3.
 - **Visual Diagrams** → Auto-generate cluster diagrams
 - **History Tracking** → View timeline of snapshots and diffs.
-- **Rollback Support** → Restore cluster to any previous state.
 - **Multi-backend Support** → Local, Git, or S3 storage.
 
 ---
