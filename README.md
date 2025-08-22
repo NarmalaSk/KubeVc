@@ -33,6 +33,8 @@ cd kubevc
 ```yaml
 cd KubeVc
 vi KubeVc.yaml or nano KubeVc.yaml
+```
+```yaml 
 kube:
   config_path: 
 s3:
@@ -46,7 +48,7 @@ s3:
 python3 KubeVc.py configure
 
 ```
-### start the KubeVc as service
+### Run KubeVc as service
 ```bash
 python3 KubeVc.py start
 ```
@@ -54,7 +56,7 @@ python3 KubeVc.py start
 ```bash
 copy instance ip/webhook
 ```
-### setup webhook for your git repo
+### Configure webhook for your git repo
 ```
 payload url :paste instance ip/webhook
 
@@ -62,6 +64,6 @@ content type: application/json
 
 send push_event
 ```
-## Congrats 🎉🎉 you have setupped KubeVc go to https://service-ip:5000/
+##### Congrats 🎉🎉 you have setupped KubeVc go to https://service-ip:5000/
 
  
