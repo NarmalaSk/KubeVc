@@ -25,5 +25,5 @@ It integrates with **Git** and **S3** to provide a history of your cluster’s e
 
 ### Clone the repo
 ```bash
-[git clone https://github.com/your-username/kubevc.git](https://github.com/NarmalaSk/KubeVc.git)
+git clone https://github.com/NarmalaSk/KubeVc.git
 cd kubevc
