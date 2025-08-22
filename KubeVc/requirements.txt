@@ -1,0 +1,7 @@
+Flask
+boto3==1.28.52
+PyYAML
+kubernetes
+diagrams
+graphviz
+
